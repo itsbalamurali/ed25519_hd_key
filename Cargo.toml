@@ -1,8 +1,9 @@
 [package]
 name = "ed25519-hd-key"
 version = "0.3.0"
+description = "Rust implementation for SLIP-0010 using curve ed25519."
+license = "MIT OR Apache-2.0"
 authors = ["Taras Shchybovyk <tshchybo@gmail.com>"]
-
 [dependencies]
 hmac = "0.12"
 sha2 = "0.10"
